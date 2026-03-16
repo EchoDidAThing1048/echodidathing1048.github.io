@@ -2,11 +2,17 @@
 html, body, * {
 	font-family: "Courier New", 'Courier', 'Liberation Mono', monospace;
 	font-style: italic;
+    color:#757575;
 }
 
 /* Ensure form elements inherit the font and style (explicit) */
 input, textarea, select, button {
 	font-family: inherit;
 	font-style: inherit;
+    color: inherit;
 }
 
+body {
+    background-color: #d5d5d5;
+    margin: 20px;
+}
