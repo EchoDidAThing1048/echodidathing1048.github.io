@@ -1,2 +1,1 @@
-Website
-(I'll do it one day, today is not that day.)
+I don't know how to do anything in html/css so like fuck it we ball
