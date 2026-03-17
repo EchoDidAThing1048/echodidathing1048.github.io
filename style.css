@@ -1,8 +1,8 @@
 /* Global font: Courier New and italic text with fallbacks */
 html, body, * {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	font-style: italic;
     color:#757575;
+    font-size: 20px
 }
 
 /* Ensure form elements inherit the font and style (explicit) */
@@ -35,4 +35,9 @@ body {
 
 .info-btn {
     margin-left: 400px;
+}
+
+.indextext{
+    margin-top: 200px;
+    font-size: 50px;
 }
