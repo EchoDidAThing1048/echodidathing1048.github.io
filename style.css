@@ -1,6 +1,6 @@
 /* Global font: Courier New and italic text with fallbacks */
 html, body, * {
-	font-family: "Courier New", 'Courier', 'Liberation Mono', monospace;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-style: italic;
     color:#757575;
 }
