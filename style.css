@@ -15,7 +15,7 @@ input, textarea, select, button {
 button {
     border: none;
     background: none;
-    font-size:x-large;
+    font-size:xx-large;;
     transition-duration: 0.4s;
 }
 
@@ -26,4 +26,13 @@ button:hover {
 body {
     background-color: #d5d5d5;
     margin: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.info-btn {
+    margin-left: 400px;
 }
