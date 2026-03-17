@@ -12,7 +12,16 @@ input, textarea, select, button {
     color: inherit;
 }
 
+button {
+    border: none;
+    background: none;
+    font-size:x-large;
+    transition-duration: 0.4s;
+}
 
+button:hover {
+    color:#404040;
+}
 
 body {
     background-color: #d5d5d5;
