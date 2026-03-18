@@ -2,7 +2,7 @@
 html, body, * {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
     color:#757575;
-    font-size: 20px
+    font-size: 30px
 }
 
 /* Ensure form elements inherit the font and style (explicit) */
@@ -31,10 +31,21 @@ body {
 .header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .info-btn {
-    margin-left: 400px;
+    margin-right: 250px;
+}
+
+.info-btn-infosec {
+    margin-right: 237px;
+    background: #757575;
+    color: #d5d5d5;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
 }
 
 .indextext{
