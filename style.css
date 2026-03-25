@@ -1,7 +1,7 @@
 /* Global font: Courier New and italic text with fallbacks */
 html, body, * {
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-    color:#757575;
+    color:#8f8b8b;
+    font-style: italic;
     font-size: 30px
 }
 
@@ -24,7 +24,7 @@ button:hover {
 }
 
 body {
-    background-color: #d5d5d5;
+    background-color: #131313;
     margin: 20px;
 }
 
