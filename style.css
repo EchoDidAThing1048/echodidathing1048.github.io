@@ -1,9 +1,8 @@
 /* Global font: Courier New and italic text with fallbacks */
 html, body, * {
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
     color:#757575;
-    font-size: 30px
-    
+    font-size: 30px;
+    font-style: italic;
 }
 
 /* Ensure form elements inherit the font and style (explicit) */
