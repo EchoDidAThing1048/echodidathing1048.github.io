@@ -35,16 +35,19 @@ body {
 }
 
 .info-btn {
-    margin-right: -1400px;
+    margin-right: -1430px;
 }
 
 .gallery-btn {
     margin-right: 40px;
 }
 
+.gallery-btn-infosec {
+    margin-right: 25px;
+}
 
 .info-btn-infosec {
-    margin-right: -1400px;
+    margin-right: -1430px;
     background: #757575;
     color: #d5d5d5;
     padding: 5px;
@@ -54,7 +57,7 @@ body {
 }
 
 .gallery-btn-gallerysec {
-    margin-right: 12px;
+    margin-right: 25px;
     background: #757575;
     color: #d5d5d5;
     padding: 5px;
@@ -64,7 +67,7 @@ body {
 }
 
 .info-btn-insidegallery  { /* this is utter bullshit that I shouldn't have to do, but hey, it works. */
-    margin-right: -1416px; /* idc if it moves 1 pixel, cry about it */
+    margin-right: -1443px; /* idc if it moves 1 pixel, cry about it */
 } 
 
 .indextext{
