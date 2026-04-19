@@ -1,8 +1,9 @@
 /* Global font: Courier New and italic text with fallbacks */
 html, body, * {
-    color:#757575;
-    font-size: 30px;
-    font-style: italic;
+    color:#fffbfb;
+    font-size: 34px;
+    font-style: italic;;
+    text-shadow: #000000 3px 1px 4px;
 }
 
 /* Ensure form elements inherit the font and style (explicit) */
@@ -20,11 +21,11 @@ button {
 }
 
 button:hover {
-    color:#404040;
+    font-size: 110%;
 }
 
 body {
-    background-color: #d5d5d5;
+    background: linear-gradient(to bottom right, #7b64cf, #6abba0);
     margin: 20px;
 }
 
