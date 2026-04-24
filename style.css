@@ -35,43 +35,11 @@ body {
     justify-content: space-between;
 }
 
-.info-btn {
-    margin-right: -1430px;
+.header button:nth-child(2) {
+    margin-left: auto;
 }
 
-.gallery-btn {
-    margin-right: 40px;
+.header button:nth-child(3) {
+    margin-left: 20px;
 }
 
-.gallery-btn-infosec {
-    margin-right: 25px;
-}
-
-.info-btn-infosec {
-    margin-right: -1430px;
-    background: #757575;
-    color: #d5d5d5;
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 10px;
-}
-
-.gallery-btn-gallerysec {
-    margin-right: 25px;
-    background: #757575;
-    color: #d5d5d5;
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 10px;
-}
-
-.info-btn-insidegallery  { /* this is utter bullshit that I shouldn't have to do, but hey, it works. */
-    margin-right: -1443px; /* idc if it moves 1 pixel, cry about it */
-} 
-
-.indextext{
-    margin-top: 200px;
-    font-size: 50px;
-}
