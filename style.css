@@ -1,9 +1,10 @@
 /* Global font: Courier New and italic text with fallbacks */
 html, body, * {
-    color:#fffbfb;
+    color:#fac08b;
     font-size: 34px;
     font-style: italic;
-    text-shadow: #000000 3px 1px 4px;
+    text-shadow: #bb4500 3px 1px 4px;
+    align-content: middle;
 }
 
 /* Ensure form elements inherit the font and style (explicit) */
@@ -25,43 +26,11 @@ button:hover {
 }
 
 body {
-    background: linear-gradient(to top, #000000, #1c2033);
-    margin: 20px;
-}
-
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.header button:nth-child(2) {
-    margin-left: auto;
-}
-
-.header button:nth-child(3) {
-    margin-left: 20px;
-}
-
-/* image shit that I stole from w3 lol */
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-  flex: 25%;
-  max-width: 50%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
+    margin: 10;
+    padding: 0;
+    background-color: #0f123a;
+    display:flex;
+    justify-content:center;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
