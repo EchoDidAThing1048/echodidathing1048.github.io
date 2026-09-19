@@ -28,9 +28,14 @@ button:hover {
 body {
     margin: 10;
     padding: 0;
-    background-color: #0f123a;
+    background-color: #1d1e29; /* #0f123a */
     display:flex;
+  flex-direction: column;
     justify-content:center;
+  align-items: center;
+  background-image: url('/images/infoheader.jpg');
+  background-size: cover;
+  background-blend-mode: soft-light;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -47,4 +52,12 @@ body {
     flex: 100%;
     max-width: 100%;
   }
+}
+
+.ascii-art {
+    font-family: monospace;
+    white-space: pre;
+    text-align: center;
+    text-fit: scale-down;
+    font-size: min(1.5vw, 14px);
 }
