@@ -1,9 +1,9 @@
 /* Global font: Courier New and italic text with fallbacks */
 html, body, * {
-    color:#fac08b;
+    color:#ebe6e6;
     font-size: 34px;
     font-style: italic;
-    text-shadow: #bb4500 3px 1px 4px;
+    text-shadow: #bbb6b4 3px 1px 4px;
     align-content: middle;
 }
 
@@ -60,4 +60,17 @@ body {
     text-align: center;
     text-fit: scale-down;
     font-size: min(1.5vw, 14px);
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.textover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
